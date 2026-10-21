@@ -1,0 +1,20 @@
+{
+  "name": "koin-flow-scope",
+  "version": "1.0.0",
+  "description": "Team standard for passing data between screens in a Kotlin Multiplatform app with shared ViewModels and Koin: one Koin scope per multi-screen flow holding a FlowData object. Start with fresh data, read in loadInitData, write before navigating, close on finish and on cancel, survive process death, iOS via KoinHelper, tests and a migration checklist for replacing navigation arguments.",
+  "author": {
+    "name": "Kareem"
+  },
+  "keywords": [
+    "kotlin-multiplatform",
+    "kmp",
+    "koin",
+    "koin-scope",
+    "navigation",
+    "viewmodel",
+    "jetpack-compose",
+    "swiftui",
+    "mvi",
+    "architecture"
+  ]
+}

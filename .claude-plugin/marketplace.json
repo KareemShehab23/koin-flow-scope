@@ -1,0 +1,24 @@
+{
+  "name": "koin-flow-scope",
+  "owner": {
+    "name": "Kareem"
+  },
+  "metadata": {
+    "description": "Pass data between screens in KMP apps with a Koin flow scope"
+  },
+  "plugins": [
+    {
+      "name": "koin-flow-scope",
+      "source": "./",
+      "description": "One Koin scope per multi-screen flow: templates, lifecycle rules, tests and a migration checklist so every developer passes data between screens the same way.",
+      "version": "1.0.0",
+      "keywords": [
+        "kotlin-multiplatform",
+        "koin",
+        "navigation",
+        "viewmodel",
+        "architecture"
+      ]
+    }
+  ]
+}
