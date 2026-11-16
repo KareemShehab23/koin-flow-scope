@@ -4,14 +4,14 @@
     "name": "Kareem"
   },
   "metadata": {
-    "description": "Pass data between screens in KMP apps with a Koin flow scope"
+    "description": "Pass data between screens in KMP apps with a Koin flow scope, the way the official Koin skills expect"
   },
   "plugins": [
     {
       "name": "koin-flow-scope",
       "source": "./",
-      "description": "One Koin scope per multi-screen flow: templates, lifecycle rules, tests and a migration checklist so every developer passes data between screens the same way.",
-      "version": "1.0.0",
+      "description": "One Koin scope per multi-screen flow, opened and closed by one owner class: templates in every Koin style, lifecycle rules, tests and migration checklists so every developer passes data between screens the same way. Works alongside the official koin plugin.",
+      "version": "2.0.0",
       "keywords": [
         "kotlin-multiplatform",
         "koin",

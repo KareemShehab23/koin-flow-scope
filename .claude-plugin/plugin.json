@@ -1,10 +1,13 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "koin-flow-scope",
-  "version": "1.0.0",
-  "description": "Team standard for passing data between screens in a Kotlin Multiplatform app with shared ViewModels and Koin: one Koin scope per multi-screen flow holding a FlowData object. Start with fresh data, read in loadInitData, write before navigating, close on finish and on cancel, survive process death, iOS via KoinHelper, tests and a migration checklist for replacing navigation arguments.",
+  "version": "2.0.0",
+  "description": "Team standard for passing data between screens in a Kotlin Multiplatform app with shared ViewModels and Koin: one Koin scope per multi-screen flow holding a FlowData object, opened and closed by one owner class that ViewModels receive through their constructor. Built on the official Koin skills (Koin 4.x; Compiler Plugin DSL, classic DSL or Annotations): fresh data on start, read in loadInitData, write before navigating, close on finish and on cancel, process death, iOS bridge, an owner test per flow, and migration checklists.",
   "author": {
     "name": "Kareem"
   },
+  "homepage": "https://github.com/KareemShehab23/koin-flow-scope",
+  "repository": "https://github.com/KareemShehab23/koin-flow-scope",
   "keywords": [
     "kotlin-multiplatform",
     "kmp",
